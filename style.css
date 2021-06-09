@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
 }
-
+/* grayish background color for site. */
 body {
   background-color: #d9dcd6;
 }
-
+/* the nav bar and title box. */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +15,15 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* the rest of the company title. */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* The three letters in the middle of the company title */
 header h1 .seo {
   color: #d9dcd6;
 }
-
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -32,25 +31,25 @@ header nav {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* getting rid of bullet points on nav list */
 header ul {
   list-style-type: none;
 }
-
+/* setting nav list items in line */
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
-a {
+/* adjusting style on individual nav elements */
+.nav-elements {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* change font size of text inside boxes */
 p {
   font-size: 16px;
 }
-
+/* setting main background img */
 .office-img-space {
   height: 800px;
   width: 100%;
@@ -59,23 +58,68 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* search engine optimization and social media marketing imgs float left. */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* online reputation managment img*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
-.content {
+/* controls three main boxes on the page */
+.main-content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+.search-engine-optimization img {
+  max-height: 200px;
+}
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.online-reputation-management img {
+  max-height: 200px;
+}
+.online-reputation-management h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.social-media-marketing img {
+  max-height: 200px;
+}
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* controls box on right hand size */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -106,90 +150,34 @@ p {
   margin-bottom: 10px;
   text-align: center;
 }
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 .benefit-lead img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+.benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
 .benefit-brand img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
 .benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.footer {
+/* text at very bottom of screen */
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -197,6 +185,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }

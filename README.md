@@ -1,1 +1,1 @@
-# Horiseon-wepage
+In this project we are improving a working sites code for greater clarity and efficiency. 
